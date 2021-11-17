@@ -92,7 +92,7 @@ for i in range(0,len(evaluations)):
     
 dataAsDict = {'ImageId': datalabels, 'Label': psychicPredictions}
 datafile = pd.DataFrame(data = dataAsDict)
-datafile.to_csv('Predictions_Katerina.csv', index = False)
+datafile.to_csv('predictions.csv', index = False)
 
 """Plots"""
 plt.title('Convergence of accuracy')
